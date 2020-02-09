@@ -41,8 +41,29 @@ In order to build an MVC structure, we wanted to divide the model, controller, s
 In src/main/java/com.<groupName\>.<artifact\> we creted 4 new packages.
 
 - controller
+
 - service
+
 - model
+
 - repository
 
 	
+	
+	
+```java
+
+private void getHazal(@RequestBody)
+```
+
+Bunu bu yüzden kullanırsınız.
+
+
+```java
+
+private void getHazal(@RequestParam)
+```
+
+Bunu şurada kullanırsınız.
+
+​	
